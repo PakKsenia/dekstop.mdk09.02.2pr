@@ -1,0 +1,327 @@
+
+@font-face {
+    font-family: 'JetBrains Mono Regular';
+    src: url('fonts/JetBrainsMono-1.0.3/ttf/JetBrainsMono-Regular.ttf') format('ttf'),
+         url('fonts/JetBrainsMono-1.0.3/ttf/JetBrainsMono-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono Medium';
+    src: url('fonts/JetBrainsMono-1.0.3/ttf/JetBrainsMono-Medium.ttf') format('ttf'),
+         url('fonts/JetBrainsMono-1.0.3/ttf/JetBrainsMono-Medium.ttf') format('ttf');
+    font-weight: 500; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono Thin';
+    src: url('fonts/JetBrainsMono-1.0.3/ttf/JetBrainsMono-Thin.ttf') format('ttf'),
+         url('fonts/JetBrainsMono-1.0.3/ttf/JetBrainsMono-Thin.ttf') format('ttf');
+    font-weight: 100; 
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+
+/* header */
+ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+    margin: 0; /* Убираем отступы */
+}
+li {
+    display: inline-block; /* Располагаем элементы списка горизонтально */
+    margin-right: 88px; /* Добавляем небольшой отступ между элементами */
+    margin-top: 45px;
+}
+
+header {
+    background-image: url("img/head.png");
+    height: 1000px;
+    width: auto;
+    font-family: 'JetBrains Mono Regular', monospace;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-size: 29.65px;
+    background-color: black;
+    opacity: 0,5;
+    width: auto;
+    height: 130px;
+    background-color: rgba(0, 0, 0, 0.56);
+    font-family: 'JetBrains Mono Regular', monospace;
+
+}
+
+.logo {
+    text-align: center;
+    margin-top: 95px;
+}
+
+.logo h4{
+    font-size: 43.68px;
+    width: 761px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header button {
+    width: 389px;
+    height: 91px;
+    font-size: 29.65px;
+    background-color: rgba(255, 153, 0, 0.46);
+    color: white;
+    border: 0cap;
+    margin-top: 120px;
+    margin-left: 1080px;
+    border-radius: 10px;
+    font-family: 'JetBrains Mono Regular', monospace;
+}
+
+.textura {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*характеристики для всего сайта*/
+body {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 74px;
+    font-family: 'JetBrains Mono Medium', monospace;
+}
+
+p {
+    font-family: 'JetBrains Mono Regular', monospace;
+}
+
+h3 {
+    font-family: 'JetBrains Mono Medium', monospace;
+}
+/* Значения для текстов с оранжевым цветом */
+.orange {
+    color: rgba(255, 153, 0, 1);
+    padding: 0px;
+    font-family: 'JetBrains Mono Regular', monospace;
+}
+
+/* Мы печатаем */
+.item{
+    display: grid;
+    grid-template-columns: repeat(3, 221px);
+    grid-template-rows: repeat(2, 217px);
+    justify-content: center;
+    grid-row-gap: 10em;
+    grid-column-gap: 10em;
+
+
+}
+.catalog {
+    margin-bottom: 165px;
+    margin-top: 190px;
+    
+}
+
+.promotion {
+    text-align: center;
+    margin-top: 190px;
+    margin-bottom: 190px;
+    
+}
+/*О нас*/
+.about img {
+    margin-left: 408px;
+}
+
+.about_body{
+    margin-left: 200px;
+    
+}
+
+#block1_about {
+    margin-left: 388px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 20px;
+        
+}
+.text {
+    font-size: 36px;
+}
+.text p {
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+.about_container {
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Разделение на три колонки равной ширины */
+    gap: 20px; /* Добавляем промежутки между колонками */
+    align-items: start; /* Выравниваем элементы по верху колонки */
+}
+#block1 #block2 .map{
+    flex: 1;
+}
+.map {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-top: 10px;
+    width: 1084px;
+    height: 972px;
+}
+#block2_about {
+    margin-left: 388px;
+    padding: 20px;
+}
+
+/* Мы работали с */
+.partners {
+    margin-bottom: 190px;
+}
+
+.part_cont {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+/* элементы "партнеры" */
+.pone h3 {
+    margin-left: 120px;
+}
+.pone p {
+    margin-left: 75px;
+}
+
+.ptwo h3 {
+    margin-left: 90px;
+}
+.ptwo p {
+    margin-left: 50px;
+}
+
+.pthree h3 {
+    margin-left: 110px;
+}
+.pthree p {
+    margin-left: 30px;
+}
+
+/* Подача заявки*/
+.form_cont {
+    width: 1182px;
+    height: 1255px;
+    background-color: rgba(255, 153, 0, 1);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.form_cont p {
+    color: black;
+    font-size: 36px;
+    font-family: 'JetBrains Mono Medium', monospace;
+}
+.logoForm img {
+    margin-top: 46px;
+    margin-left: 401px;
+}
+
+.itemForm img {
+    margin-left: 16px;
+    margin-top: 66px;
+}
+
+.form_grid {
+    margin-top: 4px;
+    display: grid;
+    grid-template-columns: 1fr auto; /* Разделение на три колонки равной ширины */
+    /* gap: 20px;  Добавляем промежутки между колонками */
+    align-items: start; /* Выравниваем элементы по верху колонки */
+}
+
+input {
+    display: block; /* Устанавливаем элементы input как блочные */
+    width: 756px; /* Занимать всю доступную ширину */
+    height: 48px;
+    margin-bottom: 10px; /* Добавляем отступ между input */
+    font-family: 'JetBrains Mono Thin', monospace;
+    border: 0;
+    font-size: 32px;
+}
+
+input::placeholder{
+    padding: 19px; 
+}
+textarea {
+    border: 0;
+    font-family: 'JetBrains Mono Thin', monospace;
+    font-size: 32px;
+}
+.block1{
+    margin-top: 50px;
+    margin-right: 500px;
+    margin-left: -520px
+}
+.block2 {
+    text-align: left ;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+.form_cont button {
+    font-family:'JetBrains Mono Regular', monospace;
+    background-color: black;
+    color: white;
+    font-size: 29.65px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    width: 389px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 404px;
+}
+
+
+/* подвал */
+.foot {
+    margin-top: 202px;
+    margin-bottom: 248px;
+    margin-left: 688px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 40px;
+}
+
+.foot_cont1 .foot_cont2 {
+    flex: 1;
+}
+
+.foot_cont2 {
+    text-align: left;
+    display: flex;
+    flex-direction:column;
+    align-items: top;
+}
+
